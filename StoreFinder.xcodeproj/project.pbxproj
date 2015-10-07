@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEDA3541BC5CCA300E9679C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA3531BC5CCA300E9679C /* AppDelegate.swift */; };
+		FAEDA3561BC5CCA300E9679C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA3551BC5CCA300E9679C /* ViewController.swift */; };
+		FAEDA3591BC5CCA300E9679C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA3571BC5CCA300E9679C /* Main.storyboard */; };
+		FAEDA35B1BC5CCA300E9679C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA35A1BC5CCA300E9679C /* Assets.xcassets */; };
+		FAEDA35E1BC5CCA300E9679C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEDA35C1BC5CCA300E9679C /* LaunchScreen.storyboard */; };
+		FAEDA3691BC5CCA300E9679C /* StoreFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA3681BC5CCA300E9679C /* StoreFinderTests.swift */; };
+		FAEDA3741BC5CCA400E9679C /* StoreFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDA3731BC5CCA400E9679C /* StoreFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEDA3651BC5CCA300E9679C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEDA3481BC5CCA300E9679C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEDA34F1BC5CCA300E9679C;
+			remoteInfo = StoreFinder;
+		};
+		FAEDA3701BC5CCA400E9679C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEDA3481BC5CCA300E9679C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEDA34F1BC5CCA300E9679C;
+			remoteInfo = StoreFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEDA3501BC5CCA300E9679C /* StoreFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDA3531BC5CCA300E9679C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEDA3551BC5CCA300E9679C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEDA3581BC5CCA300E9679C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEDA35A1BC5CCA300E9679C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEDA35D1BC5CCA300E9679C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEDA35F1BC5CCA300E9679C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEDA3641BC5CCA300E9679C /* StoreFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDA3681BC5CCA300E9679C /* StoreFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFinderTests.swift; sourceTree = "<group>"; };
+		FAEDA36A1BC5CCA300E9679C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEDA36F1BC5CCA400E9679C /* StoreFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDA3731BC5CCA400E9679C /* StoreFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFinderUITests.swift; sourceTree = "<group>"; };
+		FAEDA3751BC5CCA400E9679C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEDA34D1BC5CCA300E9679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDA3611BC5CCA300E9679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDA36C1BC5CCA400E9679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEDA3471BC5CCA300E9679C = {
+			isa = PBXGroup;
+			children = (
+				FAEDA3521BC5CCA300E9679C /* StoreFinder */,
+				FAEDA3671BC5CCA300E9679C /* StoreFinderTests */,
+				FAEDA3721BC5CCA400E9679C /* StoreFinderUITests */,
+				FAEDA3511BC5CCA300E9679C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEDA3511BC5CCA300E9679C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDA3501BC5CCA300E9679C /* StoreFinder.app */,
+				FAEDA3641BC5CCA300E9679C /* StoreFinderTests.xctest */,
+				FAEDA36F1BC5CCA400E9679C /* StoreFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEDA3521BC5CCA300E9679C /* StoreFinder */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDA3531BC5CCA300E9679C /* AppDelegate.swift */,
+				FAEDA3551BC5CCA300E9679C /* ViewController.swift */,
+				FAEDA3571BC5CCA300E9679C /* Main.storyboard */,
+				FAEDA35A1BC5CCA300E9679C /* Assets.xcassets */,
+				FAEDA35C1BC5CCA300E9679C /* LaunchScreen.storyboard */,
+				FAEDA35F1BC5CCA300E9679C /* Info.plist */,
+			);
+			path = StoreFinder;
+			sourceTree = "<group>";
+		};
+		FAEDA3671BC5CCA300E9679C /* StoreFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDA3681BC5CCA300E9679C /* StoreFinderTests.swift */,
+				FAEDA36A1BC5CCA300E9679C /* Info.plist */,
+			);
+			path = StoreFinderTests;
+			sourceTree = "<group>";
+		};
+		FAEDA3721BC5CCA400E9679C /* StoreFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDA3731BC5CCA400E9679C /* StoreFinderUITests.swift */,
+				FAEDA3751BC5CCA400E9679C /* Info.plist */,
+			);
+			path = StoreFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEDA34F1BC5CCA300E9679C /* StoreFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDA3781BC5CCA400E9679C /* Build configuration list for PBXNativeTarget "StoreFinder" */;
+			buildPhases = (
+				FAEDA34C1BC5CCA300E9679C /* Sources */,
+				FAEDA34D1BC5CCA300E9679C /* Frameworks */,
+				FAEDA34E1BC5CCA300E9679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoreFinder;
+			productName = StoreFinder;
+			productReference = FAEDA3501BC5CCA300E9679C /* StoreFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEDA3631BC5CCA300E9679C /* StoreFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDA37B1BC5CCA400E9679C /* Build configuration list for PBXNativeTarget "StoreFinderTests" */;
+			buildPhases = (
+				FAEDA3601BC5CCA300E9679C /* Sources */,
+				FAEDA3611BC5CCA300E9679C /* Frameworks */,
+				FAEDA3621BC5CCA300E9679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEDA3661BC5CCA300E9679C /* PBXTargetDependency */,
+			);
+			name = StoreFinderTests;
+			productName = StoreFinderTests;
+			productReference = FAEDA3641BC5CCA300E9679C /* StoreFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAEDA36E1BC5CCA400E9679C /* StoreFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDA37E1BC5CCA400E9679C /* Build configuration list for PBXNativeTarget "StoreFinderUITests" */;
+			buildPhases = (
+				FAEDA36B1BC5CCA400E9679C /* Sources */,
+				FAEDA36C1BC5CCA400E9679C /* Frameworks */,
+				FAEDA36D1BC5CCA400E9679C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEDA3711BC5CCA400E9679C /* PBXTargetDependency */,
+			);
+			name = StoreFinderUITests;
+			productName = StoreFinderUITests;
+			productReference = FAEDA36F1BC5CCA400E9679C /* StoreFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEDA3481BC5CCA300E9679C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Noe Alejandro";
+				TargetAttributes = {
+					FAEDA34F1BC5CCA300E9679C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FAEDA3631BC5CCA300E9679C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FAEDA34F1BC5CCA300E9679C;
+					};
+					FAEDA36E1BC5CCA400E9679C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FAEDA34F1BC5CCA300E9679C;
+					};
+				};
+			};
+			buildConfigurationList = FAEDA34B1BC5CCA300E9679C /* Build configuration list for PBXProject "StoreFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEDA3471BC5CCA300E9679C;
+			productRefGroup = FAEDA3511BC5CCA300E9679C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEDA34F1BC5CCA300E9679C /* StoreFinder */,
+				FAEDA3631BC5CCA300E9679C /* StoreFinderTests */,
+				FAEDA36E1BC5CCA400E9679C /* StoreFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEDA34E1BC5CCA300E9679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDA35E1BC5CCA300E9679C /* LaunchScreen.storyboard in Resources */,
+				FAEDA35B1BC5CCA300E9679C /* Assets.xcassets in Resources */,
+				FAEDA3591BC5CCA300E9679C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDA3621BC5CCA300E9679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDA36D1BC5CCA400E9679C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEDA34C1BC5CCA300E9679C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDA3561BC5CCA300E9679C /* ViewController.swift in Sources */,
+				FAEDA3541BC5CCA300E9679C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDA3601BC5CCA300E9679C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDA3691BC5CCA300E9679C /* StoreFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDA36B1BC5CCA400E9679C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDA3741BC5CCA400E9679C /* StoreFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEDA3661BC5CCA300E9679C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEDA34F1BC5CCA300E9679C /* StoreFinder */;
+			targetProxy = FAEDA3651BC5CCA300E9679C /* PBXContainerItemProxy */;
+		};
+		FAEDA3711BC5CCA400E9679C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEDA34F1BC5CCA300E9679C /* StoreFinder */;
+			targetProxy = FAEDA3701BC5CCA400E9679C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEDA3571BC5CCA300E9679C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEDA3581BC5CCA300E9679C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEDA35C1BC5CCA300E9679C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEDA35D1BC5CCA300E9679C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEDA3761BC5CCA400E9679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEDA3771BC5CCA400E9679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEDA3791BC5CCA400E9679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoreFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonnos.app.StoreFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAEDA37A1BC5CCA400E9679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StoreFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonnos.app.StoreFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAEDA37C1BC5CCA400E9679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StoreFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonnos.app.StoreFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoreFinder.app/StoreFinder";
+			};
+			name = Debug;
+		};
+		FAEDA37D1BC5CCA400E9679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StoreFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonnos.app.StoreFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoreFinder.app/StoreFinder";
+			};
+			name = Release;
+		};
+		FAEDA37F1BC5CCA400E9679C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StoreFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonnos.app.StoreFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StoreFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAEDA3801BC5CCA400E9679C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StoreFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonnos.app.StoreFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StoreFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEDA34B1BC5CCA300E9679C /* Build configuration list for PBXProject "StoreFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDA3761BC5CCA400E9679C /* Debug */,
+				FAEDA3771BC5CCA400E9679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEDA3781BC5CCA400E9679C /* Build configuration list for PBXNativeTarget "StoreFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDA3791BC5CCA400E9679C /* Debug */,
+				FAEDA37A1BC5CCA400E9679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAEDA37B1BC5CCA400E9679C /* Build configuration list for PBXNativeTarget "StoreFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDA37C1BC5CCA400E9679C /* Debug */,
+				FAEDA37D1BC5CCA400E9679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAEDA37E1BC5CCA400E9679C /* Build configuration list for PBXNativeTarget "StoreFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDA37F1BC5CCA400E9679C /* Debug */,
+				FAEDA3801BC5CCA400E9679C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEDA3481BC5CCA300E9679C /* Project object */;
+}
